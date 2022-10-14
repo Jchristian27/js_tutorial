@@ -10,9 +10,5 @@ function palindrome(string) {
 }
 
 function emailParts(email) {
-  let emailStr = email.toLowerCase();
-  let emailArr = emailStr.split('@');
-  let username = emailArr[0];
-  let domain = emailArr[1];
-  return [username, domain];
+  return email.toLowerCase().split('@');
 }
