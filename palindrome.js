@@ -12,3 +12,8 @@ function palindrome(string) {
 function emailParts(email) {
   return email.toLowerCase().split('@');
 }
+
+// Defines a Phrase object.
+function Phrase(content) {
+  this.content = content;
+}
