@@ -9,6 +9,10 @@ String.prototype.blank = function() {
   }
 }
 
+Array.prototype.last = function() {
+  return this[this.length -1];
+}
+
 function Phrase(content) {
   this.content = content;
 
